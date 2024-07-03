@@ -5,61 +5,160 @@ p {
   margin: 0;
   padding: 0;
 }
-  body{
-    background-color:  #f0f0f0;
-    
-  }
-  header{
-    background-color: white;
-    position: fixed;
-    width: 100%;
-    
-  
-  }
-  h1{
-    color: black;
+body {
+  background-color: #f0f0f0;
+}
+header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  top: 0;
+}
+h1 {
+  color: black;
   text-align: center;
   margin-top: 20px;
   font-size: 60px;
+}
+#nikee {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+div a {
+  text-align: center;
+  padding: 1rem;
 
-  }
-  #nikee{
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 65px;
-  }
- div a {
-    text-align: center;
-    padding: 1rem;
-    width: 100%;
-    height: 38px;
-    color:black;
-    text-decoration: none;
-    margin:30% 20px
+  color: black;
+  text-decoration: none;
+  margin: 30% 20px;
 }
 
-
-#img{
-     width: 100%;
-     height: auto;
-     object-fit: contain;
+#img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
-div{
-    text-align: center;
-    margin-bottom: 15px;
-    margin-top: 20px;
-    height: 30px;
+div {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: 30px;
 }
-main{
+main {
   padding-top: 60px;
+  text-align: center;
+}
+.icons {
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+  margin: 8px;
+}
+#iconbox {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 20px;
 }
 
-  
+.logos {
+  height: 60px;
+  width: 100px;
+  object-fit: cover;
+  margin-left: 30px;
+}
+#logo {
+  display: flex;
+  justify-self: start;
+  align-items: center;
+}
 
-
-  
-
-
- 
-
- 
+div a {
+  font-size: 15px;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+#card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card {
+  position: relative;
+  width: 50%;
+  height: auto;
+  display: flex;
+  margin: 0;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.cardtext {
+  position: absolute;
+  bottom: 80px;
+  left: 30px;
+  text-align: left;
+  color: white;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#button1 {
+  background-color: white;
+  border-radius: 30px;
+  padding: 5px 13px;
+  margin-left: 20px;
+  display: inline-block;
+  margin: 0;
+  width: 70px;
+}
+#shop1 {
+  color: black;
+  font-size: 20px;
+}
+#button {
+  background-color: black;
+  border-radius: 30px;
+  padding: 5px 13px;
+  margin-left: 20px;
+  width: 70px;
+  margin: 0;
+  display: inline-block;
+}
+#shop {
+  color: white;
+  font-size: 20px;
+}
+#button2 {
+  background-color: black;
+  border-radius: 30px;
+  padding: 5px 13px;
+  margin-left: 20px;
+  width: 160px;
+  margin: 0;
+  display: inline-block;
+}
+#nikeimg {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin-top: 110px;
+}
+#imge {
+  height: auto;
+}
+#classic h1 {
+  text-align: left;
+}
