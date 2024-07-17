@@ -31,11 +31,12 @@ h1 {
 }
 div a {
   text-align: center;
-  padding: 1rem;
-
   color: black;
   text-decoration: none;
-  margin: 30% 20px;
+  margin: 30% 50px;
+}
+a:hover {
+  border-bottom: 2px solid black;
 }
 
 #img {
@@ -124,6 +125,10 @@ div a {
   margin: 0;
   width: 70px;
 }
+#button1:hover {
+  background-color: darkgrey;
+}
+
 #shop1 {
   color: black;
   font-size: 20px;
@@ -136,6 +141,9 @@ div a {
   width: 70px;
   margin: 0;
   display: inline-block;
+}
+#button:hover {
+  background-color: dimgray;
 }
 #shop {
   color: white;
@@ -150,8 +158,14 @@ div a {
   margin: 0;
   display: inline-block;
 }
+
+#button2:hover {
+  background-color: darkgrey;
+  width: 300px;
+}
+
 #nikeimg {
-  width: auto;
+  width: 100%;
   height: auto;
   object-fit: contain;
   margin-top: 110px;
@@ -161,4 +175,91 @@ div a {
 }
 #classic h1 {
   text-align: left;
+}
+h1 {
+  margin-left: 20px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.catalog {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  height: auto;
+}
+.sneaker {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 22%;
+  padding: 10px 0;
+  border-radius: 5%;
+}
+h2{
+  margin bottom: 10px;
+}
+#classic {
+  height: auto;
+}
+.membershiph2 {
+  height: auto;
+  text-align: left;
+}
+#membershipnike {
+  text-align: left;
+}
+.membership {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+}
+.member {
+  height: auto;
+  position: relative;
+  margin-right: 30px;
+  width: 27%;
+}
+.mt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  bottom: 100px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  text-align: left;
+  left: 30px;
+}
+img {
+  width: 100%;
+}
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+}
+ul {
+  text-align: left;
+  margin: 20px;
+  list-style: none;
+  font-family: "Roboto Slab", serif;
+}
+.listhead {
+  margin: 20px;
+  font-size: 20px;
+}
+li {
+  margin: 20px;
+}
+.p {
+  margin: 20px;
+}
+.boot{
+  width: 60%;
+  object-fit: contain;
+  margin-left: 60px;
 }
